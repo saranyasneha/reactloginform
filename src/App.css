@@ -1,0 +1,105 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  background: linear-gradient(50deg,skyblue,blue);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-wrapper{
+  background-color: #fff;
+  min-width: 350px;
+  min-height: 630px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: rgba(0,0,0,0.3) 0px 5px 20px,rgba(0,0,0,0.22) 0px 5px 20px;
+    
+
+}
+.title{
+  text-align: center;
+  font-size: 28px;
+  color: rgb(108, 103, 103);
+  margin: 20px 0 40px 0;
+}
+.name,.email,.password{
+  margin: 20px;
+  color:#969292;
+  font-size: 16px;
+}
+.social{
+  display: flex;
+  justify-content: center;
+}
+.msg{
+  text-align: center;
+  margin-top: 30px;
+  color: #969292;
+}
+.facebook,.google{
+  height: 40px;
+  width: 40px;
+  margin: 30px 10px 0px 10px;
+  cursor: pointer;
+}
+.facebook:hover,.google:hover{
+  opacity: 0.6;
+}
+.password{
+  margin-bottom: 40px;
+}
+.input{
+  height: 32px;
+  font-size: 20px;
+  outline: none;
+  width: 100%;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom: 1px solid #969292;
+  margin-bottom: 10px;
+  }
+  input{
+    color: #656262;
+    
+  }
+  input[type=text],input[type=email]{
+    font-size: 16px;
+  }
+  .error{
+    color: red;
+  }
+  .submit{
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 60px;
+    background:linear-gradient(to right,blue,rgb(39, 127, 162));
+    box-shadow: rgba(0,0,0,0.3) 0px 5px 20px,rgba(0,0,0,0.22) 0px 5px 20px;
+    margin: auto;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  .submit:hover{
+    opacity: 0.6;
+  }
+  button:active{
+    transform: translateY(2px);
+  }
+  .form-success{
+    display: flex;
+    color:rgb(34, 211, 34);
+    justify-content: center;
+    margin-top: 250px;
+    min-width: 370px;
+   opacity: 0.6;
+  }
